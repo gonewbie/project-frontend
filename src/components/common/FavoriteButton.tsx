@@ -2,6 +2,7 @@ import React from 'react';
 import { IArticle } from '../../types';
 import { ArticleAction } from '../../reducers/article';
 import { ArticleListAction } from '../../reducers/articleList';
+import { favoriteArticle, unfavoriteArticle } from '../../api/ArticlesAPI';
 
 type FavoriteButtonProps = {
   article: IArticle;

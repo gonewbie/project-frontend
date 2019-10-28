@@ -3,7 +3,7 @@ import { getTags } from '../../api/TagsAPI';
 import useArticles from '../../context/articles';
 
 function Tags() {
-  const [tags, setTags] = React.useState<string[]>([]);
+  const [tags, setTags] = React.useState<string[]>(['']);
   const [loading, setLoading] = React.useState(false);
   const { dispatch } = useArticles();
 

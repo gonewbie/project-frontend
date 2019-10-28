@@ -55,7 +55,7 @@ export function articlesReducer(
         articles: action.payload.articles,
         articlesCount: action.payload.articlesCount,
       }
-    case 'FECTH_ARTICLES_ERROR':
+    case 'FETCH_ARTICLES_ERROR':
       return {
         ...state,
         loading: false,

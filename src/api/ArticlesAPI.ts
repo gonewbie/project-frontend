@@ -80,5 +80,5 @@ export function createArticle(article: {
   body: string;
   tagList?: string[];
 }) {
-  return API.post<Article>(`/articles`, article);
+  return API.post<Article>(`/articles`, { article });
 }
